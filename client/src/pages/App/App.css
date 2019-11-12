@@ -1,0 +1,9 @@
+.appSearchContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.appProductsContainer{
+  display: flex;
+  justify-content: center;
+}

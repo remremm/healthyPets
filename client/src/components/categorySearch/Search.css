@@ -1,0 +1,93 @@
+.searchContainer{
+  width: 75vw;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0;
+  box-shadow: 0px 2px 4px;
+  justify-content: space-between;
+}
+
+.searchBoxes {
+  margin-left: 2%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resetButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 80%;
+  background-color: #ff2b00;
+}
+
+.allProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+.checkboxes label {
+  display: block;
+}
+
+.checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+@media only screen and (max-width: 1600px){
+  .searchBoxes {
+    margin-left: 2%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1340px){
+  .searchBoxes {
+    margin-left: 2%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .searchContainer{
+    display: none;
+  }
+}

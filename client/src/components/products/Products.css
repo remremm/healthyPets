@@ -1,0 +1,14 @@
+.productsContainer {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  height: 10%;
+  overflow: hidden;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

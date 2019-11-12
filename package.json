@@ -1,0 +1,46 @@
+{
+  "name": "healthyPets",
+  "version": "1.0.0",
+  "description": "Healthy Pets website sample",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "webpack -d -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remremm/healthyPets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remremm/healthyPets/issues"
+  },
+  "homepage": "https://github.com/remremm/healthyPets#readme",
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^3.2.0",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "nodemon": "^1.19.4",
+    "react": "^16.11.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.11.0",
+    "react-icons": "^3.8.0",
+    "react-select": "^3.0.8",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

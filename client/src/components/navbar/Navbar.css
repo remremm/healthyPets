@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #2f59ff;
+  width: 100vw;
+  height: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbarSearchContainer {
+  width: 35%;
+}
+
+.navbarSearch {
+  width: 100%;
+}
+
+.navbarTitle{
+  color: #fff;
+}
+
+.paws {
+  transform: rotate(45deg);
+}
+
+@media only screen and (max-width: 1000px){
+  .navbarIcons{
+    display: none;
+  }
+  .navbarTitle{
+    display: none;
+  }
+  .navbarSearchContainer {
+    width: 50%;
+  }
+}
